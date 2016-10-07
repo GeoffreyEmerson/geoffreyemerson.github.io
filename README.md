@@ -1,12 +1,10 @@
 # Homepage for Geoffrey Emerson
 
-This page is a project in progress while I'm in the Code Fellows training program.
+This page is a portfolio home page for Geoffrey Emerson. Many of the projects highlighted here were developed during training at Code Fellows PDX, which I completed in September of 2016.
 
-As of this writing, I have completed the first lab project and incorporated a [Bootstrap theme](http://startbootstrap.com/template-overviews/freelancer/) into it. I'm currently working on further customizations.
-
-I plan to link future projects from this page.
+See the live page here: [(click)](http://geoffreyemerson.com/)
 
 ---
 #### "Freelancer" Bootstrap Theme Copyright and License
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
