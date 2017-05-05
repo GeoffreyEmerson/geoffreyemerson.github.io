@@ -8,628 +8,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Geoffrey Emerson is a rising star in the web development scene in Portland, OR. He is also really really ridiculously good looking.">
   <meta name="author" content="Geoffrey Emerson">
-
-  <title>Geoffrey Emerson - Web Design Portfolio</title>
-
-  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Template CSS -->
-  <link href="css/freelancer.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/custom.css" rel="stylesheet">
-
-  <!-- Template Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+  <title>Geoffrey Emerson - Project Portfolio</title>
 
 </head>
 
 <body id="page-top" class="index">
+  <div id="content" >
+    
+    <header>
+      <h1 class="name">Geoffrey Emerson</h1>
+      <h2 class="skills">Full Stack JavaScript Web Developer</h2>
+    </header>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top">Geoffrey Emerson</a>
-      </div>
+    <hr>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li class="page-scroll">
-            <a href="#portfolio">Projects</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#about">About</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="project">
+        <h3 class="alignleft">Clever Job Hunter</h3>
+        <h3 class="alignright tuck-bottom">Node.js, Express.js, MongoDB, AngularJS</h3>
+        <div style="clear: both;"></div>
+        <p class="alignright tuck-top">Webpack, Mocha, Chai, Karma, JWT, Angular Material</p>
+        <div style="clear: both;"></div>
+        <p>Code Fellows group project. Created in 1 week.</p>
+        <p> Track your job search with Clever Job Hunter! Keep all your research in one place, and set reminders for followups.</p>
+        <p>Github Repo: <a href="https://github.com/insertclevernamehere" target="_blank" rel="noopener noreferrer">https://github.com/insertclevernamehere</a></p>
+        <p>Demo hosted on Heroku: <a href="https://cleverjobhunter.herokuapp.com" target="_blank" rel="noopener noreferrer">https://cleverjobhunter.herokuapp.com</a></p>
       </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
+      <div class="project">
+        <h3 class="alignleft">No Spoilers!</h3>
+        <h3 class="alignright tuck-bottom">Node.js, Express.js, MongoDB</h3>
+        <div style="clear: both;"></div>
+        <p class="alignright tuck-top">Mocha, Chai, JWT, TVDB API</p>
+        <div style="clear: both;"></div>
+        <p>Code Fellows group project. Created in 1 week.</p>
+        <p>Review the plots of previous episodes without worrying about spoilers! This website only shows info about your pre-approved episodes, so you won't have future events ruined by accident. The project currently allows importing of television shows, but future plans include book series and movies.</p>
+        <p>Github Repo: <a href="https://github.com/No-Spoilers/No-Spoilers" target="_blank" rel="noopener noreferrer">https://github.com/No-Spoilers/No-Spoilers</a></p>
+        <p>Demo hosted on Heroku: <a href="https://no-spoilers.herokuapp.com" target="_blank" rel="noopener noreferrer">https://no-spoilers.herokuapp.com</a></p>
+      </div>
+      <div class="project">
+        <h3 class="alignleft">Basic Asset Tracking System</h3>
+        <h3 class="alignright">PHP, PostgreSQL</h3>
+        <div style="clear: both;"></div>
+        <p>This is a simple browser based inventory tracking system I created circa 2006. To log into this demo site, simply enter any username. No need for a password. It is completely unpolished, and was only built out as far as we needed it when it was created.</p>
+        <p>Github Repo: <a href="https://github.com/GeoffreyEmerson/bats" target="_blank" rel="noopener noreferrer">https://github.com/GeoffreyEmerson/bats</a></p>
+        <p>Demo hosted on Heroku: <a href="https://bats-demo.herokuapp.com" target="_blank" rel="noopener noreferrer">https://bats-demo.herokuapp.com</a></p>
+      </div>
+    </section>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <img class="img-responsive" id="porthole" src="img/headshot.jpg" alt="Geoffrey Emerson's Headshot">
-          <div class="intro-text">
-            <span class="name">Geoffrey Emerson</span>
-            <hr class="star-light">
-            <span class="skills">Web Developer - Full Stack - JavaScript, Ruby, PHP</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+    <hr>
 
-  <!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Projects</h2>
-          <hr class="star-primary">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>Clever Job Hunter</h3>
-              </div>
-            </div>
-            <img src="img/cleverjobhunter.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>No Spoilers!</h3>
-              </div>
-            </div>
-            <img src="img/no-spoilers.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>AssetDB 2006</h3>
-              </div>
-            </div>
-            <img src="img/assetdb.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"> </i>
-                <h3>Code Fellows 301<br>Final Project</h3>
-              </div>
-            </div>
-            <img src="img/convoke.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>Code Fellows 201<br>Final Project</h3>
-              </div>
-            </div>
-            <img src="img/keep-touch.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>Code Fellows 201 <br> Week 3 Labs</h3>
-              </div>
-            </div>
-            <img src="img/week3.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"></i>
-                <h3>Code Fellows 201 <br> Week 2 Labs</h3>
-              </div>
-            </div>
-            <img src="img/week2.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-2x"> </i>
-                <h3>Code Fellows 201 <br> Week 1 Labs</h3>
-              </div>
-            </div>
-            <img src="img/week1.png" class="img-responsive border" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>Geoffrey Emerson is a full stack web developer currently
+          residing in Portland, Oregon. He started programming for
+          fun at a very young age, and in 2015 decided to make
+          the switch from hobbyist to professional. Geoff is
+          currently focusing on JavaScript tools and deployment
+          strategies.</p>
+        <p>Over the years he has also studied Basic, Pascal, C, C++, C#,
+          Objective-C, PHP, and Ruby on Rails. While he took many programming
+          classes over the years, his Bachelor's Degree is in Theatre Arts
+          with an emphasis on Acting and Musical Theatre.</p>
+        <a href="https://www.linkedin.com/in/GeoffreyEmerson" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-outline">
+          <i class="fa fa-external-link"></i> Geoffrey Emerson's LinkedIn
+        </a>
+    </section>
 
-  <!-- About Section -->
-  <section class="success" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>About</h2>
-          <hr class="star-light">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-          <p>Geoffrey Emerson is a full stack web developer currently
-            residing in Portland, Oregon. He started programming for
-            fun at a very young age, and in 2015 decided to make
-            the switch from hobbyist to professional. Geoff has
-            experience in JavaScript, Ruby on Rails, and PHP,
-            and enjoys learning new languages. </p>
-        </div>
-        <div class="col-lg-4">
-          <p>Over the years he has also studied Basic, Pascal, C, C++, C# for Xbox,
-            and Objective-C for iOS. While he took some programming
-            classes for fun in college, he majored in Theatre Arts
-            with an emphasis Acting and Musical Theatre. But what he
-            really wants to do is direct!</p>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <a href="https://www.linkedin.com/in/GeoffreyEmerson" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-outline">
-            <i class="fa fa-external-link"></i> Geoffrey Emerson's LinkedIn
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    <hr>
 
-  <!-- Contact Section -->
-  <section id="contact">
-   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Contact Me</h2>
-        <hr class="star-primary">
-      </div>
-    </div>
-    <div class="row">
-     <div class="col-lg-6 center-block" style="float:none;">
+    <section id="contact">
+      <h2>Contact</h2>
       <ul class="list-unstyled">
-       <li>
-         <a href="https://www.github.com/geoffreyemerson" class="btn-outline btn-outline-dark">
-          <span class="btn-social btn-social-dark"><i class="fa fa-fw fa-github"></i></span><span class="social-text">Github: GeoffreyEmerson</span>
-         </a>
-       </li>
-       <li>
-         <a href="https://twitter.com/geoffreyemerson" class="btn-outline btn-outline-dark">
-          <span class="btn-social btn-social-dark"><i class="fa fa-fw fa-twitter"></i></span><span class="social-text">Twitter: @GeoffreyEmerson</span>
-         </a>
-       </li>
-       <li>
-         <a href="https://www.linkedin.com/in/GeoffreyEmerson" class="btn-outline btn-outline-dark">
-          <span class="btn-social btn-social-dark"><i class="fa fa-fw fa-linkedin"></i></span><span class="social-text">LinkedIn: GeoffreyEmerson</span>
-         </a>
-       </li>
-       <li>
-         <a href="https://geoffreyemerson.wordpress.com" class="btn-outline btn-outline-dark">
-          <span class="btn-social btn-social-dark"><i class="fa fa-fw fa-wordpress"></i></span><span class="social-text">Wordpress: GeoffreyEmerson</span>
-         </a>
-       </li>
-       <li>
-         <a href="https://facebook.com/geoffemerson" class="btn-outline btn-outline-dark">
-          <span class="btn-social btn-social-dark"><i class="fa fa-fw fa-facebook"></span></i><span class="social-text">Facebook: GeoffEmerson</span>
-         </a>
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </section>
+        <li>
+          <a href="https://www.github.com/geoffreyemerson">
+            <i class="fa fa-fw fa-github"></i>Github: GeoffreyEmerson
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/geoffreyemerson">
+            <i class="fa fa-fw fa-twitter"></i>Twitter: @GeoffreyEmerson
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/GeoffreyEmerson">
+            <i class="fa fa-fw fa-linkedin"></i>LinkedIn: GeoffreyEmerson
+          </a>
+        </li>
+        <li>
+          <a href="https://geoffreyemerson.wordpress.com">
+            <i class="fa fa-fw fa-wordpress"></i>Wordpress: GeoffreyEmerson
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com/geoffemerson">
+            <i class="fa fa-fw fa-facebook"></i>Facebook: GeoffEmerson
+          </a>
+        </li>
+        </ul>
+    </section>
+  </div>
 
-  <!-- Footer -->
-  <footer class="text-center">
-    <!-- <div class="footer-above">
-      <div class="container">
-          <div class="footer-col col-md-4">
-            <h3>About This Template</h3>
-            <p><i>Freelance</i> is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>.</p>
-          </div>
-      </div>
-    </div> -->
-    <div class="footer-below">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            Copyright &copy; Geoffrey Emerson 2016
-          </div>
-          <div class="col-lg-6">
-            Bootstrap theme: <a href="https://startbootstrap.com">Freelance</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <footer>
+    Copyright &copy; 2017 by Geoffrey "I'm Not A Graphic Designer" Emerson 
   </footer>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-top page-scroll visible-xs visible-sm">
-    <a class="btn btn-primary" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>AssetDB</h2>
-              <hr class="star-primary">
-              <a href="https://bats-demo.herokuapp.com" target="_blank" rel="noopener noreferrer"><img src="img/assetdb.png" class="img-responsive img-centered" alt=""></a>
-              <p>This is a simple browser based inventory tracking system I created circa 2006. It uses PHP and a PostgreSQL database. To log into this demo site, simply enter any username. No need for a password. It is completely unpolished, and was only built out as far as we needed it when it was created.</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://bats-demo.herokuapp.com" target="_blank" rel="noopener noreferrer">AssetDB (Hosted on Heroku)</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/GeoffreyEmerson/bats" target="_blank" rel="noopener noreferrer">Github Repo</a></strong>
-                </li>
-                <li>
-                 Date:
-                 <strong>2006</strong>
-                </li>
-                <li>Technologies:
-                  <strong>HTML, CSS, PHP, PostgreSQL</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Code Fellows 201 - Week 1 Project</h2>
-              <hr class="star-primary">
-              <a href="https://geoffreyemerson.github.io/code201-week1/" target="_blank" rel="noopener noreferrer"><img src="img/week1.png" class="img-responsive img-centered" alt=""></a>
-              <p>For the lab work during the first week of Code Fellows 201, we created a personal "About Me" page with a simple quiz game attached. Hey, it's a start!</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://geoffreyemerson.github.io/code201-week1/" target="_blank" rel="noopener noreferrer">201-Week1</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/geoffreyemerson/code201-week1/" target="_blank" rel="noopener noreferrer">Github Repo</a></strong>
-                </li>
-                <li>Date:
-                  <strong>May 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>HTML, CSS, JavaScript</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Code Fellows 201 - Week 2 Project</h2>
-              <hr class="star-primary">
-              <a href="https://geoffreyemerson.github.io/code201-week2/" target="_blank" rel="noopener noreferrer"><img src="img/week2.png" class="img-responsive img-centered" alt=""></a>
-              <p>For the second week in Code Fellows 201, we each created a website for a future-themed pizza restaurant with several locations around Portland. On a second page is a series of tables with simulated sales data displayed on tables, as well as the ability to dynamically create a new store location. </p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://geoffreyemerson.github.io/code201-week2/" target="_blank" rel="noopener noreferrer">201-Week2</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/geoffreyemerson/code201-week2/" target="_blank" rel="noopener noreferrer">Github Repo</a></strong>
-                </li>
-                <li>Date:
-                  <strong>May 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>HTML, CSS, JavaScript</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Code Fellows 201 - Week 3 Project</h2>
-              <hr class="star-primary">
-              <a href="https://geoffreyemerson.github.io/code201-week3/" target="_blank" rel="noopener noreferrer"><img src="img/week3.png" class="img-responsive img-centered border" alt=""></a>
-              <p>This interactive page demonstrates a few simple CSS animations and the use of persistant storage using browser "localStorage" through JavaScript.</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://geoffreyemerson.github.io/code201-week3/" target="_blank" rel="noopener noreferrer">201-Week2</a></strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/geoffreyemerson/code201-week3/" target="_blank" rel="noopener noreferrer">Github Repo</a></strong>
-                </li>
-                <li>Date:
-                  <strong>May 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>HTML, CSS, JavaScript</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Clever Job Hunter</h2>
-              <hr class="star-primary">
-              <img src="img/cleverjobhunter.png" class="img-responsive img-centered" alt="">
-              <p>Track your job search with Clever Job Hunter! Keep all your research in one place, and set reminders for followups. More features to come!</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://cleverjobhunter.herokuapp.com" target="_blank" rel="noopener noreferrer">Heroku Deployment</a></strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/insertclevernamehere" target="_blank" rel="noopener noreferrer">Github Repo</a></strong>
-                </li>
-                <li>Date:
-                  <strong>September 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>MEAN Stack (Mongo, Express.js, Angular.js 1.5, Node.js) and Material Design</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>No Spoilers!</h2>
-              <hr class="star-primary">
-              <img src="img/no-spoilers.png" class="img-responsive img-centered border" alt="">
-              <p>Review the plots of previous episodes without worrying about spoilers! This website only shows info about your pre-approved episodes, so you won't have future events ruined by accident. The project currently allows importing of television shows, but future plans include book series and movies.</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://no-spoilers.herokuapp.com" target="_blank" rel="noopener noreferrer">Heroku Deployment</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/No-Spoilers/No-Spoilers" target="_blank" rel="noopener noreferrer">Github Repo</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong>August 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>Mongo, Express.js, Node.js</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Convoke</h2>
-              <hr class="star-primary">
-              <img src="img/convoke.png" class="img-responsive img-centered border" alt="Convoke Screen Cap">
-              <p>Put together a casual even quickly and easily. Share the link with your friends and get everybody's input on time, place, food, and anything else!</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://convoke.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku Deployment</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/GeoffreyEmerson/301-final-project" target="_blank" rel="noopener noreferrer">Github Repo</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong>June 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>JavaScript, HTML, CSS (with Skeleton)</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>KeepTouch</h2>
-              <hr class="star-primary">
-              <img src="img/keep-touch.png" class="img-responsive img-centered border" alt="KeepTouch Screen Cap">
-              <p>Track your social contacts with KeepTouch. This app will let you make notes about when you last spoke with somebody, and when you want to touch base with them again, featuring a data-driven timeline of which friends you are scheduled to catch up with next!</p>
-              <ul class="list-inline item-details">
-                <li>Demo:
-                  <strong><a href="https://rutherling.github.io/201finalProject/index.html" target="_blank" rel="noopener noreferrer">Heroku Deployment</a>
-                  </strong>
-                </li>
-                <li>Code base:
-                  <strong><a href="https://github.com/KeepTouch-Team/KeepTouch" target="_blank" rel="noopener noreferrer">Github Repo</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong>June 2016</strong>
-                </li>
-                <li>Technologies:
-                  <strong>JavaScript, HTML, CSS</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/cbpAnimatedHeader.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom Theme JavaScript -->
-  <script src="js/freelancer.js"></script>
 
 </body>
 
