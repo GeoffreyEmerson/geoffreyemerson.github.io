@@ -1,6 +1,6 @@
 # Homepage for Geoffrey Emerson
 
-This page is a portfolio home page for Geoffrey Emerson. Many of the projects highlighted here were developed during training at Code Fellows PDX, which I completed in September of 2016.
+This page is a portfolio home page for Geoffrey Emerson, featuring links to some of the personal projects he is currently working on in his spare time.
 
 See the live page here: [(click)](http://geoffreyemerson.com/)
 
