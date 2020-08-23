@@ -2,7 +2,7 @@
 
 This page is a portfolio home page for Geoffrey Emerson, featuring links to some of the personal projects he is currently working on in his spare time.
 
-See the live page here: [(click)](http://geoffreyemerson.com/)
+See the live page here: [(click)](http://geoffreyemerson.github.io/)
 
 ---
 #### "Freelancer" Bootstrap Theme Copyright and License
