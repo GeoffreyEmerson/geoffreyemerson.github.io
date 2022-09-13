@@ -77,7 +77,7 @@
         console.log('body:', body);
       }
 
-      console.log(`-- fetching --`);
+      console.log(`Fetching...`);
 
       let requestHtml = `
         <h2>Request</h2>
@@ -110,9 +110,13 @@
         response.jsonBody = await response.json();
         responseBody = JSON.stringify(response.jsonBody, null, 2);
       } catch(err) {
-        responseBody = "See result in console.";
-        console.log(`No valid json.`);
-        response = err;
+        try {
+          console.log(err);
+          responseBody = await response.text();
+        } catch (err) {
+          responseBody = "See result in console.";
+          console.log(`No valid response body.`);
+        }
       }
 
       let responseHtml = `
@@ -133,7 +137,6 @@
       resultDiv.innerHTML = responseHtml;
 
       console.log('response:', response);
-
     } catch (err) {
       console.log(err);
       resultDiv.innerText = err;
