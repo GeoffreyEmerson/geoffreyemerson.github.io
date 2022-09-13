@@ -24,7 +24,6 @@
           <tr><td>Content-Type:</td><td><input type="text" name="content-type" id="contentType" value="application/json" size="81" /></td></tr>
           <tr><td>Accept-Encoding:</td><td><input type="text" name="Accept-Encoding" id="acceptEncoding" value="gzip, deflate, br" size="81" /></td></tr>
           <tr><td>Origin:</td><td><input type="text" name="Origin" id="origin" value="" size="81" /></td></tr>
-          <tr><td>Access-Control-Allow-Origin:</td><td><input type="text" name="Access-Control-Allow-Origin" id="allow" value="" size="81" /></td></tr>
           <tr><td>Cookie:</td><td><input type="text" name="Cookie" id="cookie" value="" size="81" /></td></tr>
         </table>
 
@@ -61,7 +60,6 @@
       headers.append("Content-Type", document.querySelector('#contentType').value); 
       headers.append("Accept-Encoding", document.querySelector('#acceptEncoding').value); 
       headers.append("Origin", document.querySelector('#origin').value);
-      headers.append("Access-Control-Allow-Origin", document.querySelector('#allow').value);
       headers.append("Cookie", document.querySelector('#cookie').value);
 
       console.log('headers:', ...headers);
